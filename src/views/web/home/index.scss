@@ -1,0 +1,62 @@
+.home-container {
+    .ul-list {
+        background-color:#f0f2f5;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        .ul-list-item {
+            position: relative;
+            left: 0;
+            padding: 8px 24px;
+            margin-bottom: 4px;
+            background-color: #fff;
+            transition: all 0.2s linear;
+            &:hover {
+                background: #f0f2f5;
+                box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+                transform: translate3d(0, -5px 0);
+            }
+            .description {
+                cursor: pointer;
+                max-height: 280px;
+                overflow: hidden;
+            }
+            .others {
+                margin-top: 5px;
+            }
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .createdTime {
+                margin-left: 15px;
+                font-size: 12px;
+                color: #666;
+            }
+        }
+        
+    }
+    .preview {
+        position: fixed;
+        width: 220px;
+        top: 104px;
+        right: 12px;
+        list-style: none;
+        overflow: hidden;
+    }
+
+    .drawer-btn {
+        position: fixed;
+        width: 41px;
+        height: 41px;
+        top: 20vh;
+        left: 0;
+        cursor: pointer;
+        box-shadow: 2px 0 8px rgba(0, 0, 0, .15);
+        border-radius: 4px 0 0 4px;
+        text-align: center;
+        line-height: 41px;
+        z-index: 999;
+        background: #fff;
+    }
+}

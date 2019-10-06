@@ -1,0 +1,12 @@
+.content-inner-wrapper {
+    .geyan {
+        padding-left: 10px;
+    }
+    .about-list {
+        &, ul {
+            // border: 1px solid black;
+            list-style: circle;
+            margin-left: -10px;
+        }
+    }
+}
